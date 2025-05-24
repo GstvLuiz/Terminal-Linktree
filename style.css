@@ -1,0 +1,659 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  background-image: radial-gradient(4px 100px at 0px 235px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 235px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 117.5px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 252px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 252px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 126px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 150px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 150px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 75px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 253px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 253px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 126.5px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 204px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 204px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 102px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 134px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 134px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 67px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 179px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 179px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 89.5px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 299px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 299px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 149.5px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 215px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 215px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 107.5px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 281px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 281px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 140.5px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 158px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 158px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 79px, #0f0 100%, #0000 150%),
+    radial-gradient(4px 100px at 0px 210px, #0f0, #0000),
+    radial-gradient(4px 100px at 300px 210px, #0f0, #0000),
+    radial-gradient(1.5px 1.5px at 150px 105px, #0f0 100%, #0000 150%);
+  background-size:
+    300px 235px,
+    300px 235px,
+    300px 235px,
+    300px 252px,
+    300px 252px,
+    300px 252px,
+    300px 150px,
+    300px 150px,
+    300px 150px,
+    300px 253px,
+    300px 253px,
+    300px 253px,
+    300px 204px,
+    300px 204px,
+    300px 204px,
+    300px 134px,
+    300px 134px,
+    300px 134px,
+    300px 179px,
+    300px 179px,
+    300px 179px,
+    300px 299px,
+    300px 299px,
+    300px 299px,
+    300px 215px,
+    300px 215px,
+    300px 215px,
+    300px 281px,
+    300px 281px,
+    300px 281px,
+    300px 158px,
+    300px 158px,
+    300px 158px,
+    300px 210px,
+    300px 210px,
+    300px 210px;
+  animation: hi 150s linear infinite;
+}
+
+
+@keyframes hi {
+  0% {
+    background-position:
+      0px 220px,
+      3px 220px,
+      151.5px 337.5px,
+      25px 24px,
+      28px 24px,
+      176.5px 150px,
+      50px 16px,
+      53px 16px,
+      201.5px 91px,
+      75px 224px,
+      78px 224px,
+      226.5px 350.5px,
+      100px 19px,
+      103px 19px,
+      251.5px 121px,
+      125px 120px,
+      128px 120px,
+      276.5px 187px,
+      150px 31px,
+      153px 31px,
+      301.5px 120.5px,
+      175px 235px,
+      178px 235px,
+      326.5px 384.5px,
+      200px 121px,
+      203px 121px,
+      351.5px 228.5px,
+      225px 224px,
+      228px 224px,
+      376.5px 364.5px,
+      250px 26px,
+      253px 26px,
+      401.5px 105px,
+      275px 75px,
+      278px 75px,
+      426.5px 180px;
+  }
+  to {
+    background-position:
+      0px 6800px,
+      3px 6800px,
+      151.5px 6917.5px,
+      25px 13632px,
+      28px 13632px,
+      176.5px 13758px,
+      50px 5416px,
+      53px 5416px,
+      201.5px 5491px,
+      75px 17175px,
+      78px 17175px,
+      226.5px 17301.5px,
+      100px 5119px,
+      103px 5119px,
+      251.5px 5221px,
+      125px 8428px,
+      128px 8428px,
+      276.5px 8495px,
+      150px 9876px,
+      153px 9876px,
+      301.5px 9965.5px,
+      175px 13391px,
+      178px 13391px,
+      326.5px 13540.5px,
+      200px 14741px,
+      203px 14741px,
+      351.5px 14848.5px,
+      225px 18770px,
+      228px 18770px,
+      376.5px 18910.5px,
+      250px 5082px,
+      253px 5082px,
+      401.5px 5161px,
+      275px 6375px,
+      278px 6375px,
+      426.5px 6480px;
+  }
+}
+
+.container {
+    max-width: 450px;
+    max-height: 500px;
+    width: 100%;
+    padding: 20px;
+}
+
+.profile-card, .links-card {
+    background-color: rgba(30, 30, 47, 0.95);
+    color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0;
+}
+
+.profile-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.availability {
+    background-color: rgba(0, 200, 0, 0.15);
+    color: #008800;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.profile-content {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    margin-right: 20px;
+}
+
+.avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile-info h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #d4d4d4;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.btn i {
+  margin-right: 10px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.button.github {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  padding: 12px;
+  border-radius: 7px;
+  border: 1px solid #333;
+  font-weight: bold;
+  background: #24292e;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.button.github i{
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.button.github:hover {
+  background: #24292e;
+  box-shadow: 0 0 30px 5px rgba(109, 111, 111, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.button.github:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.button.github::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.button.github:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.button.portfolio {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  padding: 12px;
+  border-radius: 7px;
+  border: 1px solid #333;
+  font-weight: bold;
+  background: #24292e;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.button.portfolio i{
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.button.portfolio:hover {
+  background: #24292e;
+  box-shadow: 0 0 30px 5px rgba(109, 111, 111, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.button.portfolio:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.button.portfolio::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.button.portfolio:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.button.linkedin{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  padding: 12px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-weight: bold;
+  background:  rgb(61, 106, 255);
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.button.linkedin i{
+  margin-right: 10px;
+}
+
+.button.linkedin:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.button.linkedin:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.button.linkedin::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.button.linkedin:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.button {
+  position: relative;
+  text-decoration: none;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #17795E;
+  background-color: #209978;
+  overflow: hidden;
+}
+
+.button, .button__icon, .button__text {
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  transform: translateX(165px);
+  color: #fff;
+  font-weight: bold;
+}
+
+.button .button__icon {
+  position: absolute;
+  transform: translateX(330px);
+  height: 100%;
+  width: 39px;
+  background-color: #17795E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button .svg {
+  width: 20px;
+  fill: #fff;
+}
+
+.button:hover {
+  background: #17795E;
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 148px;
+  transform: translateX(123px);
+}
+
+.button:active .button__icon {
+  background-color: #146c54;
+}
+
+.button:active {
+  border: 1px solid #146c54;
+} 
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .profile-content {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .avatar {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .profile-info h1 {
+        font-size: 20px; 
+    }
+
+    .profile-info p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    .button { 
+        justify-content: center;
+        padding: 12px;
+    }
+
+    .button .button__icon {
+        display: none; 
+    }
+
+    .button .button__text {
+        transform: none;
+        color: #fff !important;
+        font-weight: bold;
+    }
+
+    .button:hover {
+        background: #17795E;
+    }
+
+    .button:hover .button__text {
+        color: #fff !important;
+    }
+
+    .button.github, .button.portfolio, .button.linkedin {
+        height: 42px; 
+        padding: 10px;
+        font-size: 14px;
+    }
+    .button.github i, .button.portfolio i, .button.linkedin i {
+        font-size: 16px; 
+    }
+
+    .profile-header {
+        align-items: flex-start;
+        gap: 8px; 
+    }
+
+    .availability {
+      font-size: 10px;
+    }
+}

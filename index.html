@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meus Links</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <div class="container">
+    
+      <div class="profile-card">
+            <div class="profile-header">
+                <div class="profile-title">Web Developer</div>
+                <div class="availability">Disponível para novos projetos</div>
+            </div>
+            
+            <div class="profile-content">
+                <div class="avatar">
+                    <img src="hacker (1).png" alt="Profile Avatar">
+                </div>
+                <div class="profile-info">
+                    <h1>GstvLuiz Dev</h1>
+                    <p>Front-End Developer focado em UX/UI. Precisa de ajuda? Fica à vontade pra chamar.</p>
+                    
+                    <div class="action-buttons">
+                      <button class="btn-primary">Contate-Me:</button>
+                      <button class="btn-secondary" onclick="copiarEmail()">Meu e-mail</button>
+                    </div>
+
+                      <span id="email" style="display: none;">gstvluiz40@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+      <a href="https://github.com/GstvLuiz" target="_blank" class="button github"> 
+        <i class="fab fa-github"></i>GitHub</a>
+
+      <a href="#" target="_blank" class="button portfolio">
+        <i class="fa-solid fa-briefcase"></i>Portfólio</a>
+
+      <a href="https://www.linkedin.com/in/luiz-gustavo-silva-pinheiro-4b659a20a/" target="_blank" class="button linkedin">
+        <i class="fab fa-linkedin"></i>LinkedIn</a>
+
+      <a href="Luiz Gustavo S. Pinheiro CV.pdf" class="button" download>
+        <span class="button__text">Baixar CV</span>
+        <span class="button__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg">
+                <path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path>
+                <path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path>
+                <path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path>
+            </svg>
+        </span>
+        </a>
+
+  </div>
+
+  
+
+  <script>
+    function copiarEmail() {
+      const email = document.getElementById("email").textContent;
+      navigator.clipboard.writeText(email)
+      .then(() => alert("E-mail copiado com sucesso!"))
+      .catch(err => alert("Erro ao copiar: " + err));
+      }
+
+</script>
+</body>
+</html>
